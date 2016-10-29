@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Titles"/>
+    <meta http-equiv="content-type" content="text/html"/>
+    <meta charset="UTF-8"/>
+    <title>Hello, I'm a web-page</title>
+</head>
+<body>
+<h1>It is a title of first order</h1>
+<h2>It is a title of second order</h2>
+<h3>It is a title of third order</h3>
+Printing <b>bold</b> and<i> cursive</i> and <ins>underlined</ins> text.
+<p>Printing the text in paragraph.</p>
+<p>It's a <a href="https://www.jetbrains.com/pycharm/"> link1</a> of our site.
+And this <a href="https://www.jetbrains.com/pycharm/" target="_blank">link2</a> will open in a new tab.
+</p>
+    <span>
+        Line tag.
+    </span>
+<div>
+    Block tag.
+</div>
+<div>
+<table border="1" cellpadding="5" cellspacing="0">
+    <tr>
+        <td>ID</td>
+        <td>Ім'я</td>
+        <td>Фамілія</td>
+        <td>По-батькові</td>
+        <td>Дата народження</td>
+    </tr>
+    <tr>
+        <td>0385</td>
+        <td>Олег</td>
+        <td>Петров</td>
+        <td>Ігорович</td>
+        <td>01.10.1985</td>
+    </tr>
+    <tr>
+        <td>0569</td>
+        <td>Тарас</td>
+        <td>Зімайло</td>
+        <td>Олегович</td>
+        <td>12.05.1979</td>
+    </tr>
+</table>
+</div>
+<div>
+<table border="1" cellpadding="5" cellspacing="0">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Ім'я</th>
+        <th>Фамілія</th>
+        <th>По-батькові</th>
+        <th>Дата народження</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>0695</td>
+        <td>Олена</td>
+        <td>Оскомська</td>
+        <td>Леонідівна</td>
+        <td>12.07.1982</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td>0756</td>
+        <td>Ірина</td>
+        <td>Тернавська</td>
+        <td>Валеріївна</td>
+        <td>25.01.1987</td>
+    </tr>
+    </tfoot>
+</table>
+</div>
+<form action="/" method="post">
+    <div>
+        <label>Ім'я</label>
+        <input name="Ім'я"/>
+    </div>
+    <div>
+        <label>Фамілія</label>
+        <input name="Фамілія"/>
+    </div>
+    <div>
+        <label>По-батькові</label>
+        <input name="По-батькові"/>
+    </div>
+    <div>
+        <label>Дата народження</label>
+        <input name="Дата народження"/>
+    </div>
+    <div>
+        <label>Пароль</label>
+        <input name="Пароль" type="password"/>
+    </div>
+    <div>
+        <label>Підтвердження паролю</label>
+        <input name="Підтвердження паролю" type="password">
+    </div>
+    <style>
+        form {
+            width: 400px;
+            height: 200px;
+            }
+        form div {
+                margin-top: 10px;
+                    }
+        form label {
+                width: 150px;
+                display: inline-block;
+        }
+        form button {
+        float: right;
+        }
+        
+        }
+    </style>
+    <button type="submit">Ok</button>
+    <input name="Підтвердження ліцензійної угоди" type="checkbox"/>
+    <input type="radio" name="Гендерна приналежність" value="1"/>
+    <input type="radio" name="Гендерна приналежність" value="2"/>
+</form>
+<ol>
+   <li>Яблуко</li>
+    <li>Груша</li>
+    <li>Персик</li>
+</ol>
+<form action="/" method="get">
+    <select name="Фрукти">
+        <option value="1">Яблуко</option>
+        <option value="2" selected="selected">Груша</option>
+        <option value="3">Персик</option>
+    </select>
+</form>
+</body>
+</html>
